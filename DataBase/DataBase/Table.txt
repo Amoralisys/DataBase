@@ -1,0 +1,5 @@
+age         |height      |Full name           |City                |Phone number        |
+          20|         170|Zadrot Zadrotov     |Muhosidovo          |1-234-567-89        |
+          19|         160|Lolka Potracheennaya|Zarytovo            |2-3-4-5-6-7-8-9     |
+          19|         180|Rakusha Odinokiy    |Moscow              |23-435-456-67       |
+         100|         150|BogProgi            |Nebesa              |000-00-00           |

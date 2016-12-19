@@ -2,14 +2,11 @@
 #include<fstream>
 #include<vector>
 #include<memory>
-
-
-
-
+#include "CBD.h"
 
 int main()
 {
-
+	SUBD();
 }
 
 

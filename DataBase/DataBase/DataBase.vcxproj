@@ -64,7 +64,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CDB.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Subd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExampleDB.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc.txt" />
+    <Text Include="Table.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
