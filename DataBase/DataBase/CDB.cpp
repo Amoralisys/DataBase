@@ -1,8 +1,8 @@
 #include "CBD.h"
 #include <vector>
 #include <list>
-#include <set>
 #include <iterator>
+#include <set>
 
 class CDB::CDBImpl{
 public:
@@ -274,40 +274,7 @@ void CDB::save(std::ofstream& dest) const{
 	}
 }
 
-int comparator(std::string s1, std::string s2, sortDir = ASC){
-	if (s1 < s2){
-		return 1;
-	}
-	else {
-		return 0;
-	}
-}
 
-int comparator(int n1, int n2, sortDir = ASC){
-	if (n1 < n2){
-		return 1;
-	}
-	else {
-		return 0;
-	}
-}
-
-void CDB::sortBy(std::string label, sortDir dir){
-	int t = this->ptr->intFields.size();
-	for (int i = 0; i < t; ++i){
-		if (label == this->ptr->intLabels[i]){
-			//something will be there;
-			return;
-		}
-	}
-	int s = this->ptr->strFields.size();
-	for (int i = 0; i < s; ++i){
-		if (label == this->ptr->strLabels[i]){
-			//something will be there;
-			return;
-		}
-	}
-}
 
 void CDB::insert(std::string command){
 	int t = this->ptr->intFields.size();
